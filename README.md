@@ -16,7 +16,7 @@ Stored on ```flatc_darwin-18.7.0.zip```
 ### Work based on resources (attempt to build on linux WIP):
 * Using Docker centos:9.10 image with source code of FlatBuffers 1.11.0 (use host's volume directory for building)
 * Original source files from: https://github.com/google/flatbuffers/archive/v1.11.0.tar.gz
-* Install CLang: https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6
-*  ```yum install cmake gcc```
+*  ```yum install cmake gcc wget```
 * Upgrade gcc to 5.1.0 https://www.vultr.com/docs/how-to-install-gcc-on-centos-6
+* Install CLang: https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6
 * ....
