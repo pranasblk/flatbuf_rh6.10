@@ -18,5 +18,5 @@ Stored on ```flatc_darwin-18.7.0.zip```
 * Original source files from: https://github.com/google/flatbuffers/archive/v1.11.0.tar.gz
 *  ```yum install cmake gcc wget```
 * Upgrade gcc to 5.1.0 https://www.vultr.com/docs/how-to-install-gcc-on-centos-6
-* Install CLang: https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6 (```git clone https://github.com/llvm/llvm-project.git; ```)
-* ....
+* Install LLVM and CLang: https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6
+* 
