@@ -14,9 +14,9 @@ Darwin xxx.local 18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 20
 Stored on ```flatc_darwin-18.7.0.zip```
 
 ### Work based on resources (attempt to build on linux WIP):
-* Using Docker centos:9.10 image with source code of FlatBuffers 1.11.0 (use host's volume directory for building)
-* Original source files from: https://github.com/google/flatbuffers/archive/v1.11.0.tar.gz
-*  ```yum install cmake gcc wget```
-* Upgrade gcc to 5.1.0 https://www.vultr.com/docs/how-to-install-gcc-on-centos-6
-* Install LLVM and CLang: https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6
-* 
+* Using Docker centos:latest image with source code of FlatBuffers https://github.com/google/flatbuffers/commit/99d11e279f290c0ad0e835b7c257dbc84a2161c9 (use host's volume directory for building)
+<Docker> Enable CentOS PowerTools 
+* TODOS: https://handbrake.fr/docs/en/latest/developer/install-dependencies-centos.html
+* Enable option ```FLATBUFFERS_STATIC_FLATC ON``` in CMakeLists.txt
+* Install static libraries ```dnf install -y libstdc++-static.x86_64 glibc-static.x86_64 llvm```
+* ```make```
