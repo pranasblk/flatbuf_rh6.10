@@ -18,7 +18,7 @@ Stored on ```flatc_darwin-18.7.0.zip```
 <Docker> Enable CentOS PowerTools 
 * TODOS: https://handbrake.fr/docs/en/latest/developer/install-dependencies-centos.html
 * Enable option ```FLATBUFFERS_STATIC_FLATC ON``` in CMakeLists.txt
-* Install static libraries ```dnf install -y libstdc++-static.x86_64 glibc-static.x86_64 llvm```
+* Install static libraries ```dnf cmake install -y libstdc++-static.x86_64 glibc-static.x86_64 llvm```
 * ```make```
   
 Stored on ```flatc-linux-static.zip``` (Statically linked for x64 platforms only)
