@@ -26,5 +26,10 @@ Stored on ```flatc-linux-static.zip``` (Statically linked for x64 platforms only
 ### CentOS 6.10 with linux kernel v2.6.32:
 * https://edwards.sdsu.edu/research/c11-on-centos-6/ (Install devtoolset-8)
 * ```sudo yum install epel-release``` ```sudo yum install cmake``` installation
+* ```scl enable devtoolset-8 'bash'```
+* ```cd flatbuffers-1.11.0; cmake .; make```
+* ```./flattest```
+
+Stored on ```flatc-linux-2.6.32.zip```
 
 
