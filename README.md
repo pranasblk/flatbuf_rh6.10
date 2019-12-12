@@ -32,4 +32,6 @@ Stored on ```flatc-linux-static.zip``` (Statically linked for x64 platforms only
 
 Stored on ```flatc-linux-2.6.32.zip```
 
+Thanks for the help dealing with old Linux systems to @mcs6502
+
 
