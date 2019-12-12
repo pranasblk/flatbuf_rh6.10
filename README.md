@@ -24,7 +24,7 @@ Stored on ```flatc_darwin-18.7.0.zip```
 Stored on ```flatc-linux-static.zip``` (Statically linked for x64 platforms only works with 3+ linux kernel)
 
 ### CentOS 6.10 with linux kernel v2.6.32:
-* https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6 (Install cmake)
-* ```sudo yum install epel-release``` clang installation
+* https://edwards.sdsu.edu/research/c11-on-centos-6/ (Install devtoolset-8)
+* ```sudo yum install epel-release``` ```sudo yum install cmake``` installation
 
 
