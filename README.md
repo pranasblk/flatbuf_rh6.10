@@ -25,5 +25,6 @@ Stored on ```flatc-linux-static.zip``` (Statically linked for x64 platforms only
 
 ### CentOS 6.10 with linux kernel v2.6.32:
 * https://www.vultr.com/docs/how-to-install-llvm-and-clang-on-centos-6 (Install clang)
+* ```sudo yum install epel-release``` clang installation
 
 
